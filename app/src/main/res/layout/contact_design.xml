@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="25dp"
+    android:elevation="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_image">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="user name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:drawableTop="@drawable/video_call"
+            android:textColor="#fff"
+            android:paddingTop="10dp"
+            android:drawableTint="#fff">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SettingFragment">
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_image"
+        android:layout_marginTop="25dp"></ImageView>
+
+    <EditText
+        android:id="@+id/ed_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/edit_profile"
+        android:hint="Write your name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_profile"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/edit_status"
+        android:hint="Write your name">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ed_status"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Save"
+        android:textColor="#fff"></Button>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013493610352",
+    "firebase_url": "https://call-face.firebaseio.com",
+    "project_id": "call-face",
+    "storage_bucket": "call-face.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013493610352:android:0c3266960d5c09669241b5",
+        "android_client_info": {
+          "package_name": "hieusenpaj.com.callface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013493610352-5t2lgu98kld5f0hqf67q454lee49pqai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1D9xGVT23_wIPAH34GwAtWuesN5sZ4z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013493610352-5t2lgu98kld5f0hqf67q454lee49pqai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
